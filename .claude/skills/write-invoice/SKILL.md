@@ -1,9 +1,10 @@
 ---
 name: write-invoice
-description: Use this skill when someone asks to generate an invoice, create a bill, write a payment receipt, produce a delivery invoice, or calculate charges for a customer delivery
+description: Use this skill when someone asks to generate an invoice, create a bill, write a payment receipt, produce a delivery invoice, or calculate charges for a delivery. Always requires a tracking number in LD-XXXXX format.
 allowed-tools:
   - read_file
   - write_file
+model: claude-sonnet-4-20250514
 ---
 
 ## Generating a LagosDeliver Invoice

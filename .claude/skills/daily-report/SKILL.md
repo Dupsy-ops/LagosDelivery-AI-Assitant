@@ -1,9 +1,10 @@
 ---
 name: daily-report
-description: Use this skill when someone asks to generate a daily report, create an end of day summary, produce a delivery report, or compile daily delivery statistics
+description: Use this skill when someone asks to generate a daily report, create an end of day summary, produce delivery statistics, compile daily numbers, or generate a performance report for LagosDeliver operations
 allowed-tools:
   - read_file
   - write_file
+model: claude-sonnet-4-20250514
 ---
 
 ## Generating a Daily Delivery Report

@@ -1,9 +1,10 @@
 ---
 name: customer-email
-description: Use this skill when someone asks to write a customer email, draft an email to a client, compose a delivery notification, send a message to a customer, or write any business email related to deliveries
+description: Use this skill when someone asks to write a customer email, draft an email to a client, compose a delivery notification, send a message to a customer, write a delay apology email, or write any business communication related to LagosDeliver deliveries
 allowed-tools:
   - read_file
   - write_file
+model: claude-sonnet-4-20250514
 ---
 
 ## Writing a Customer Email for LagosDeliver

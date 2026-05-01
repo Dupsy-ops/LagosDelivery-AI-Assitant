@@ -1,9 +1,10 @@
 ---
 name: track-shipment
-description: Use this skill when someone asks to track a package, check delivery status, find a shipment, or locate an order using a tracking number
+description: Use this skill when someone asks to track a package, check delivery status, find a shipment, locate an order, or wants to know where their package is using a tracking number starting with LD-
 allowed-tools:
   - read_file
   - write_file
+model: claude-sonnet-4-20250514
 ---
 
 ## Tracking a LagosDeliver Shipment
